@@ -5,10 +5,10 @@ const ManageOrders = () => {
     const [orders, setOrders] = useState([]);
     useEffect(() => {
         // load order data
-        fetch("http://localhost:5000/orders")
+        fetch("https://protected-hamlet-47437.herokuapp.com/orders")
             .then((res) => res.json())
             .then((data) => setOrders(data));
-    }, [orders]);
+    }, []);
 
     return (
         <div className="p-4" style={{ minHeight: "600px" }}>
@@ -19,7 +19,7 @@ const ManageOrders = () => {
             </div>
             <div>
                 {orders.map((order) => (
-                    <ManageOrder key={order._id} order={order}></ManageOrder>
+                    <ManageOrder key={order._id} order={order} orders={orders}></ManageOrder>
                 ))}
             </div>
         </div>

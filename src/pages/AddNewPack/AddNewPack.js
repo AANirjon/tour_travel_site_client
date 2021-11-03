@@ -11,12 +11,14 @@ const AddNewPack = () => {
         reset,
     } = useForm();
     const onSubmit = (data) => {
-        axios.post("http://localhost:5000/packages", data).then((res) => {
-            if (res?.data?.acknowledged) {
-                alert("Your Plan added successful. Thank you!");
-                reset();
-            }
-        });
+        axios
+            .post("https://protected-hamlet-47437.herokuapp.com/packages", data)
+            .then((res) => {
+                if (res?.data?.acknowledged) {
+                    alert("Your Plan added successful. Thank you!");
+                    reset();
+                }
+            });
     };
 
     return (

@@ -3,8 +3,7 @@ import React, { useEffect, useState } from "react";
 const ManageOrder = (props) => {
     const [singleOrder, setSingleOrder] = useState({});
     const { _id, email, package_id, district } = props.order || {};
-    const url = `http://localhost:5000/order/${package_id}`;
-
+    const url = `https://protected-hamlet-47437.herokuapp.com/order/${package_id}`; 
 
     // Load order
     useEffect(() => {
@@ -17,14 +16,14 @@ const ManageOrder = (props) => {
     const cancelOrder = (id) => {
         const proceed = window.confirm("Is want to delete?");
         if (proceed) {
-            fetch(`http://localhost:5000/orders/delete/${id}`, {
+            fetch(`https://protected-hamlet-47437.herokuapp.com/orders/delete/${id}`, {
                 method: "DELETE",
             })
                 .then((res) => res.json())
                 .then((data) => console.log(data));
         }
     };
-
+    console.log(singleOrder)
     const { title, img } = singleOrder || {};
     return (
         <div className="container mb-5 w-75">

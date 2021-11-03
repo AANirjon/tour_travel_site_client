@@ -10,7 +10,7 @@ const Parchage = () => {
     const { user } = useAuth();
     const { orderId } = useParams();
     // load single service for banner
-    const url = `http://localhost:5000/Packages/${orderId}`;
+    const url = `https://protected-hamlet-47437.herokuapp.com/Packages/${orderId}`;
     useEffect(() => {
         fetch(url)
             .then((res) => res.json())
@@ -21,7 +21,7 @@ const Parchage = () => {
     // from submit handler
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = (data) => {
-        axios.post("http://localhost:5000/orders", data).then((res) => {
+        axios.post("https://protected-hamlet-47437.herokuapp.com/orders", data).then((res) => {
             if (res?.data?.acknowledged) {
                 alert("Welcome To trip!");
                 reset();

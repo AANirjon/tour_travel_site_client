@@ -6,7 +6,7 @@ const UpdatePack = () => {
     const [info, setInfo] = useState({});
     const { updateId } = useParams();
     const { register, handleSubmit } = useForm();
-    const url = `http://localhost:5000/Packages/${updateId}`;
+    const url = `https://protected-hamlet-47437.herokuapp.com/Packages/${updateId}`;
 
     // load defalut values
     useEffect(() => {

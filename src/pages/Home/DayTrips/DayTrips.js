@@ -5,7 +5,7 @@ import "./DayTrips.css";
 const DayTrips = () => {
     const [dayTrips, setDayTrips] = useState([]);
     useEffect(() => {
-        fetch("http://localhost:5000/oneDayTours")
+        fetch("https://protected-hamlet-47437.herokuapp.com/oneDayTours")
             .then((res) => res.json())
             .then((data) => setDayTrips(data));
     }, []);

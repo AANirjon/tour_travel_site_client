@@ -1,0 +1,23 @@
+.c-bg {
+    background-color: rgba(222, 222, 222, 0.974);
+    cursor: pointer;
+}
+
+.img-container {
+    position: relative;
+    margin: 0 auto;
+}
+
+.img-container img {
+    vertical-align: middle;
+}
+
+.img-container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(91, 91, 92, 0.05);
+    background-image: linear-gradient(rgb(0, 0, 0, 0), rgb(0, 0, 0, 0.8));
+    color: #f1f1f1;
+    width: 100%;
+    padding: 50px 0px;
+}

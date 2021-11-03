@@ -1,0 +1,14 @@
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-color: #9eb389;
+}
+
+.login-box {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,18 @@
+.img-blog {
+    position: relative;
+    /* max-width: 800px; */
+    margin: 0 auto;
+}
+
+.img-blog img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+.img-blog .content-blog {
+    position: absolute;
+    bottom: 0;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 50px 0px;
+}

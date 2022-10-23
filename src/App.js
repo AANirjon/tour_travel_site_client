@@ -1,5 +1,5 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import AuthProvider from "./context/AuthProvider";
 import About from "./pages/About/About/About";
 import AddNewPack from "./pages/AddNewPack/AddNewPack";

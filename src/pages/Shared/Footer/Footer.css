@@ -6,7 +6,7 @@
 }
 .icons i:hover{
     background-color: lightblue;
-    color: black;
+    color: rgb(10, 10, 10);
     border-radius: 36px;
 }
 

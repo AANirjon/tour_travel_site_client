@@ -8,24 +8,24 @@ import {
 import { useEffect, useState } from "react";
 import initializeAuthentication from "../Firebase/firebase.init";
 
-// firebase initialize
+// Firebase Initialize
 initializeAuthentication();
 
-// google provider
+// Google Provider
 const provider = new GoogleAuthProvider();
 
 const useFirebase = () => {
     const [user, setUser] = useState({});
     const [isLoading, setIsLoading] = useState(true);
-    // firebase Auth
+    // Firebase Auth
     const auth = getAuth();
 
-    // hangle google signin
+    // Hangle Google Signin
     const signInGoogle = () => {
         return signInWithPopup(auth, provider);
     };
 
-    // Manage user in state change
+    // Manage User In State Change
     useEffect(() => {
         const unsubscribed = onAuthStateChanged(auth, (user) => {
             if (user) {
@@ -38,7 +38,7 @@ const useFirebase = () => {
         return () => unsubscribed;
     }, [auth]);
 
-    // Auth logOut handler
+    // Auth LogOut Handler
     const logOut = () => {
         signOut(auth).then(() => setUser({}));
     };

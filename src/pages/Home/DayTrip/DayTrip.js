@@ -7,7 +7,7 @@ const DayTrip = (props) => {
         <div className="col text-start">
             <div className="card h-100">
                 <div className="tour-container">
-                    <img src={img} className="img-fluid rounded-top" alt="" />
+                    <img src={img} className="img-fluid rounded-top" alt="this is imagee" />
                     <div className="tour-content ps-2">
                         <h5>{title}</h5>
                     </div>

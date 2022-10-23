@@ -10,7 +10,7 @@ const Login = () => {
     const history = useHistory();
     const redirect_uri = location.state?.from || "/home";
 
-    // redirect previous route after login
+    // Redirect To Previous Route After Login
     const handleGoogleSignIn = () => {
         signInGoogle()
             .then((result) => {

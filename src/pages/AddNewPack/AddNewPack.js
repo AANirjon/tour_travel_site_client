@@ -12,7 +12,7 @@ const AddNewPack = () => {
     } = useForm();
     const onSubmit = (data) => {
         axios
-            .post("https://protected-hamlet-47437.herokuapp.com/packages", data)
+            .post("https://ahnaf-tourism.herokuapp.com/packages", data)
             .then((res) => {
                 if (res?.data?.acknowledged) {
                     alert("Your Plan added successful. Thank you!");

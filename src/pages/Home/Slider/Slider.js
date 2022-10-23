@@ -7,7 +7,7 @@ const Slider = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="https://i.ibb.co/8Nhz4s2/slide-1.png"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW1xXMm7nCl1I1TX-XGT1Qmxa8Lp0CFjQOQw&usqp=CAU"
                     alt="First slide"
                 />
 
@@ -18,7 +18,7 @@ const Slider = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="https://i.ibb.co/HnY91W6/slide-2.png"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZeVPU_6qlTDaDKFd2FBmT72uwAlT7ZA9xzA&usqp=CAU"
                     alt="Second slide"
                 />
 
@@ -29,7 +29,7 @@ const Slider = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="https://i.ibb.co/QrTnKVQ/slide-3.png"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH1iwKvnTx7FxHKfcjLPLXvilcT_PcRrktNg&usqp=CAU"
                     alt="Third slide"
                 />
 
@@ -40,7 +40,7 @@ const Slider = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="https://i.ibb.co/qnmxNNc/slide-4.png"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQprIpeeoREuI-XMB4pj9OaLRmIh7xQJDSTkQ&usqp=CAU"
                     alt="Fourth slide"
                 />
 
@@ -51,7 +51,7 @@ const Slider = () => {
             <Carousel.Item>
                 <img
                     className="d-block w-100"
-                    src="https://i.ibb.co/b5zszgf/slide-6.png"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYQ1Z9dSRFf86Tqn43PsuzYkTBVwIZZOdt4Q&usqp=CAU"
                     alt="Fifth slide"
                 />
 

@@ -12,7 +12,7 @@ const Package = (props) => {
     const deletePackage = (id) => {
         const proceed = window.confirm("Is want to delete?");
         if (proceed) {
-            fetch(`https://protected-hamlet-47437.herokuapp.com/packages/delete/${id}`, {
+            fetch(`https://ahnaf-tourism.herokuapp.com/packages/delete/${id}`, {
                 method: "DELETE",
             })
                 .then((res) => res.json())

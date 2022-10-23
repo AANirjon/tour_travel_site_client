@@ -9,8 +9,9 @@ const Parchage = () => {
     const [tourPack, setTourPack] = useState({});
     const { user } = useAuth();
     const { orderId } = useParams();
+    console.log("orderid",orderId)
     // load single service for banner
-    const url = `https://protected-hamlet-47437.herokuapp.com/Packages/${orderId}`;
+    const url = `https://ahnaf-tourism.herokuapp.com/Packages/${orderId}`;
     useEffect(() => {
         fetch(url)
             .then((res) => res.json())
@@ -21,7 +22,7 @@ const Parchage = () => {
     // from submit handler
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = (data) => {
-        axios.post("https://protected-hamlet-47437.herokuapp.com/orders", data).then((res) => {
+        axios.post("https://ahnaf-tourism.herokuapp.com/orders", data).then((res) => {
             if (res?.data?.acknowledged) {
                 alert("Welcome To trip!");
                 reset();

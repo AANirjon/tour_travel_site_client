@@ -1,0 +1,6 @@
+.text-title-color{
+    color: rgb(255, 155, 41);
+    text-shadow: grey;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}

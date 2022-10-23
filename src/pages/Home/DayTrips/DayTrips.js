@@ -5,15 +5,15 @@ import "./DayTrips.css";
 const DayTrips = () => {
     const [dayTrips, setDayTrips] = useState([]);
     useEffect(() => {
-        fetch("https://protected-hamlet-47437.herokuapp.com/oneDayTours")
+        fetch("https://ahnaf-tourism.herokuapp.com/oneDayTours")
             .then((res) => res.json())
             .then((data) => setDayTrips(data));
     }, []);
 
     return (
         <div className="bg-home-tour">
-            <h2 className="pt-2 pb-4">
-                Best<span className="text-success"> Weekend</span> Trips
+            <h2 className="pt-2 pb-4 test">
+                Best<span className="text-primary"> Weekend</span> Trips
             </h2>
             <div className="container pb-3">
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">

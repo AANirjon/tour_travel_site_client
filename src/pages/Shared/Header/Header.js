@@ -12,8 +12,8 @@ const Header = () => {
                 <Container>
                     <Navbar.Brand as={Link} to="/">
                         <b>
-                            <span className="text-warning">Tour&nbsp;</span>
-                            <span className="text-primary">Holiday</span>
+                            <span className="text-primary">Travels & </span>
+                            <span className="text-primary">Tours</span>
                         </b>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />

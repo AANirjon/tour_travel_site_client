@@ -1,8 +1,14 @@
 #Getting Started with Create React App
+
  This project was bootstrapped with Create React App.
 
+
+#1.Ami batch-4 er student.Amder somoy jei private repo diye git push korte bolesilo seta kno jani ami programing-hero1 github theke khuje paitesi na...
+2.Tai ei project ta ami amr github theke private repo theke kore dilam..  
+
 ##Project Desctiption: 
-Here I use React library to design a tourism related Website. I use React-Bootstrap for css and also use some row css to make design othentic. In this web site i do CRUD oparetion by Node express. Database is No-SQL mongoDB atlas. 
+1. It is a tourism related website. It is also a responsive project.
+2. It is has login auth,and database integrate.
 
 ##Technologies:
 ### React font-end-libraby
@@ -13,14 +19,6 @@ Here I use React library to design a tourism related Website. I use React-Bootst
 ### React-Bootstrap for Css
 ### Use Environment variable
 ### Mongodb is NoSQl database 
-
-## system:
-1. here is 6 Route in nav ber. 
-2. home, packages, about, and tour tips is available for all.
-3. Add a Plan, and manage Order is only for user. Those are private route. 
-4. for edit service and order need login to website.
-5. Log in also need for purchase order and update order. Those also route..
-but they are not in Navbar.
 
 
 

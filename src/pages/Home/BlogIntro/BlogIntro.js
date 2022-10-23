@@ -8,13 +8,13 @@ const BlogIntro = () => {
             <div className="img-blog shadow">
                 <img
                     className="rounded"
-                    src="https://i.ibb.co/F7s0DLp/blog-b.png"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFS4SypZZSq5XUb_j4AomkM0z0UI_ju9Pn7DdAnm9uqCXAIKYAL28Eah1vV76YcUIlTLk&usqp=CAU"
                     alt=""
                 />
                 <div className="content-blog ms-5 text-start">
                     <h1 className="">
                         YOUR&nbsp;
-                        <span className="text-warning">
+                        <span className="text-colour">
                             PERFECT <br /> TOUR
                         </span>
                         &nbsp;EXPRRIENCE

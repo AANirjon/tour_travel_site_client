@@ -5,7 +5,7 @@ const ManageOrders = () => {
     const [orders, setOrders] = useState([]);
     useEffect(() => {
         // load order data
-        fetch("https://protected-hamlet-47437.herokuapp.com/orders")
+        fetch("https://ahnaf-tourism.herokuapp.com/orders")
             .then((res) => res.json())
             .then((data) => setOrders(data));
     }, []);

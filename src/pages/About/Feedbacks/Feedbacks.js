@@ -6,81 +6,51 @@ const Feedbacks = () => {
             <div className="row g-4">
                 <div className="col-md-9 row g-3">
                     <div>
-                        <h2 className="text-success">
+                        <h2 className="text-info">
                             <u>
-                                Best tour operator in Bangladesh to organize
-                                tours with variety
+                                Best tour success operator in BD
                             </u>
                         </h2>
                         <p>
-                            We specialize in organizing inbound tours in
-                            Bangladesh, from day tours to month long holidays,
-                            specially off the beaten tours which no one else
-                            does here. Showing people and culture of this
-                            country is always our highlights in any tour. We
-                            organize Nature & Wildlife tours, Hiking & Camping
-                            tours, Cycling tours, Bird Watching tours, River &
-                            Canals tours specially in monsoon when they are full
-                            of water and green on it’s fullest, Photography
-                            tours, City tours, and many other tours in
-                            Bangladesh. <br /> Come and visit Bangladesh with us
-                            to have the best possible experience! It is the most
-                            overlooked country in the world, and a hidden gem in
-                            south Asia about which very few people actually
-                            know. It’s amazingly hospitable people is waiting to
-                            welcome you everywhere!
+                        Success can be defined differently for everyone but the fact is some people achieve it and some people don’t. What is it that successful people do or have to find success that others don’t? There has been a lot written about the skills and habits needed to live a successful life and I think most of us know the things we could work on like building confidence or overcoming fears to be more successful in areas we want to. There are people that have a higher likelihood for success than most. Frequent travelers, people constantly on the move learn many life skills exploring our world. Here are 15 reasons why frequent travelers are more likely to be successful because of that:
+                        <br/>
+                        1. They Know how to Thrive Outside their Comfort Zone
+                        Frequent travelers are in unfamiliar situations regularly. They must work through the unknown because of necessity. Faced with countless new experiences they learn valuable coping strategies that help them shoulder uncertainty and remain calm and effective. This is a key skill for success in both business and leading people.
                         </p>
                     </div>
                     <div>
-                        <h2 className="text-success">
+                        <h2 className="text-info">
                             <u>
-                                A tour operator in Bangladesh where quality
-                                always comes first
+                            Frequent travelers
                             </u>
                         </h2>
                         <p>
-                            In Tour Holiday, we try to understand the needs of
-                            our clients, and work hard to full-fill them. We
-                            never compromise with the quality of our service.
-                            For that reason, withing the first year of founding,
-                            Holiday Tours got in the top position in TripAdvisor
-                            among all the tour operators in Bangladesh, based on
-                            the reviews and ratings from our clients.
+                        Frequent travelers see many different types of things and train their brains to focus on the beautiful. Constant novelty keeps the mind and the eyes sharp. People who travel see beauty where others see the ordinary. This skill belongs to great photographers, poetic writers and fertilizes the garden where inspiration grows.
                         </p>
                     </div>
                     <div>
-                        <h2 className="text-success">
-                            <u>A home-grown tour operator in Bangladesh</u>
+                        <h2 className="text-info">
+                            <u>Travelers are always meeting new people</u>
                         </h2>
                         <p>
-                            We specialize in organizing inbound tours in
-                            Bangladesh, from day tours to month long holidays,
-                            specially off the beaten tours which no one else
-                            does here. Showing people and culture of this
-                            country is always our highlights in any tour. We
-                            organize Nature & Wildlife tours, Hiking & Camping
-                            tours, Cycling tours, Bird Watching tours, River &
-                            Canals tours specially in monsoon when they are full
-                            of water and green on it’s fullest, Photography
-                            tours, City tours, and many other tours in
-                            Bangladesh.
+                        Travelers are always meeting new people. They become good at asking questions to learn about the people they meet and what their opinions are on their city and culture. The questions come naturally because of travelers curiosity and desire to learn about the places they visit. This inspires great conversations that help travelers understand and accept the person and their views on a deeper level. They make friends easily and are loved by many because of this.
                         </p>
                     </div>
                 </div>
                 <div className="col-md-3 row g-2">
                     <img
                         className="img-fluid rounded"
-                        src="https://i.ibb.co/L0HK8Tn/tripadvisor2018.png"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShvu1XmMo5sJTJjR7-2JZC-f4Nq3BAnwEa3A&usqp=CAU"
                         alt=""
                     />
                     <img
                         className="img-fluid rounded"
-                        src="https://i.ibb.co/THjz2yf/reaward.png"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSyYZzv6XL61ky7mwUpkrqZXFj04FuwMSxvQ&usqp=CAU"
                         alt=""
                     />
                     <img
                         className="img-fluid rounded"
-                        src="https://i.ibb.co/x144gmS/trip-a2020.png"
+                        src="https://thumbs.dreamstime.com/z/vaccination-certificate-vaccine-passport-digital-application-covid-vaccine-travel-tourism-double-exposure-getting-223262019.jpg"
                         alt=""
                     />
                 </div>

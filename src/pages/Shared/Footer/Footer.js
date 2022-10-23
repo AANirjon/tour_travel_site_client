@@ -10,11 +10,11 @@ const Footer = () => {
                     <div className="col-md-4 col-12">
                         <h5>NEED HELP?</h5>
                         <p className="m-0 text-warning">
-                            <i className="fas fa-blender-phone"></i> +3458973878
+                            <i className="fas fa-blender-phone"></i> +323456789
                         </p>
                         <p className="m-0 text-warning">
                             <i className="far fa-envelope"></i>{" "}
-                            help@tourholiday.com
+                            tourholiday@help.com
                         </p>
                     </div>
 

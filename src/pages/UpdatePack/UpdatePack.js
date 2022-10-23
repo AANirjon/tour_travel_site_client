@@ -6,7 +6,7 @@ const UpdatePack = () => {
     const [info, setInfo] = useState({});
     const { updateId } = useParams();
     const { register, handleSubmit } = useForm();
-    const url = `https://protected-hamlet-47437.herokuapp.com/Packages/${updateId}`;
+    const url = `https://ahnaf-tourism.herokuapp.com/packages/${updateId}`;
 
     // load defalut values
     useEffect(() => {

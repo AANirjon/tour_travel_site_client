@@ -1,10 +1,11 @@
 import React from "react";
+import "./EasyTours.css"
 
 const EasyTour = () => {
     return (
         <div className="container mt-5">
-            <h2 className="text-warning mb-0">
-                PLAN<span className="text-dark"> YOUR TOUR </span>EASLY
+            <h2 className="text-title-color mb-0">
+                From Us For You
             </h2>
             <p className="mt-0 mb-4 fs-5">
                 Planning a trip overseas, whether long or short,It will also

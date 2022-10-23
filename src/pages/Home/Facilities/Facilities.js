@@ -4,8 +4,8 @@ import "./Facilities.css";
 const Facilities = () => {
     return (
         <div className="bg-light">
-            <h2 className="p-2 rounded">
-                Our <span className="text-primary ">Facilities</span>
+            <h2 className="p-2 rounded text-color">
+                Our Facilities
             </h2>
             <div className="container">
                 <div className="row p-4 border rounded c-bg">

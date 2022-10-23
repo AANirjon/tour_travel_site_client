@@ -3,6 +3,13 @@
     cursor: pointer;
 }
 
+.text-color{
+    color: rgb(21, 54, 21);
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+
 .img-container {
     position: relative;
     margin: 0 auto;
@@ -21,3 +28,4 @@
     width: 100%;
     padding: 50px 0px;
 }
+

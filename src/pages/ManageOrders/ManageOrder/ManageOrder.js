@@ -3,24 +3,28 @@ import React, { useEffect, useState } from "react";
 const ManageOrder = (props) => {
     const [singleOrder, setSingleOrder] = useState({});
     const { _id, email, package_id, district } = props.order || {};
-    const url = `https://protected-hamlet-47437.herokuapp.com/order/${package_id}`; 
+    const url = `https://ahnaf-tourism.herokuapp.com/order/${package_id}`;
 
     // Load order
     useEffect(() => {
         fetch(url)
             .then((res) => res.json())
             .then((data) => setSingleOrder(data));
-    }, []);
+    }, );
 
     // delete order
     const cancelOrder = (id) => {
         const proceed = window.confirm("Is want to delete?");
         if (proceed) {
-            fetch(`https://protected-hamlet-47437.herokuapp.com/orders/delete/${id}`, {
-                method: "DELETE",
+            fetch(`https://ahnaf-tourism.herokuapp.com/orders/delete/${id}`, {
+                method: "DELETE"
             })
                 .then((res) => res.json())
-                .then((data) => console.log(data));
+                .then((data) => {
+                    if(data){
+                        window.location.reload()
+                    }
+                });
         }
     };
     console.log(singleOrder)
@@ -42,7 +46,7 @@ const ManageOrder = (props) => {
                             onClick={() => cancelOrder(_id)}
                             className="btn btn-danger"
                         >
-                            X cancel
+                            Delete
                         </button>
                     </div>
                 </div>
